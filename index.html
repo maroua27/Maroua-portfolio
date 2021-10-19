@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MAROUA EL ALAMI | PORTFOLIO</title>
+</head>
+<body>
+    <div class="toggle" onclick="toggleMenu();"></div>
+
+    <section class="banner" id="home">
+        
+        <div class="imgSidebar">
+            <img src="images/bg.jpg" >
+        </div>
+       <div class="contentBx">
+        <h5 class="logoText">MAROUA EL ALAMI</h5>
+        <div>
+            <h4><span>Hello</span> I'm</h4>
+            <h2>MAROUA EL ALAMI</h2>
+            <h4>I'm a full stack Developer.</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque laboriosam quidem placeat quis praesentium maxime veniam cum esse voluptas, ab accusamus aliquam fuga. Facilis dignissimos similique praesentium sint voluptas. Minima.
+            Laudantium, adipisci eaque? Dolor fugiat a laudantium unde obcaecati blanditiis molestiae sed commodi dolore tenetur ex ducimus magnam culpa corrupti officia vero ad perspiciatis labore explicabo nulla, deleniti ratione sunt!</p>
+            <a href="#" class="btn">About Me</a>
+        </div>
+        <ul class="sci">
+            <li><a href="#"><img src="images/facebook.png"></a></li>
+            <li><a href="#"><img src="images/twitter.png"></a></li>
+            <li><a href="#"><img src="images/instagram.png"></a></li>
+        </ul>
+       </div>
+     </section>
+
+
+<section class="about" id="about">
+<div class="title white">
+    <h2>About Us<h2>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+</div>
+<div class="content">
+    <div class="textBx">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ea autem sit velit ullam voluptatem id culpa dolorem dolor rem molestias sapiente modi iste laudantium atque, mollitia ducimus quaerat praesentium!</p>
+    </div>
+</div>
+</section>
+
+
+    <div class="sidebar">
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+    <script>
+        function toggleMenu(){
+            const menuToggle = document.querySelector('.toggle');
+            const sidebar = document.querySelector('.sidebar');
+            menuToggle.classList.toggle('active');
+            sidebar.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
